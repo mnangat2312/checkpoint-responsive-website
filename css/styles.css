@@ -1,14 +1,17 @@
-*{
+* {
     box-sizing: border-box;
     border: 0;
     margin: 0;
     padding: 0;
 }
-h1{
+
+h1 {
     color: black;
     text-decoration-style: double;
 }
-header, footer {
+
+header,
+footer {
     background-color: brown;
     padding: 10px;
     margin-bottom: 50px;
@@ -16,52 +19,59 @@ header, footer {
     justify-content: space-between;
     align-items: center;
 }
+
 nav {
     display: flex;
+    justify-content: end;
 }
+
 nav ul {
     list-style: none;
     margin: 0;
     padding: 0;
-    display: flex;
 }
-nav li {
-    margin-right: 150px;
-}
+
+
+
 nav a {
     text-decoration: none;
 }
-h2{
+
+h2 {
     color: brown;
     margin-bottom: 20px;
     margin-top: 20px;
 }
-body{
+
+body {
     font-size: 16px;
     background-color: aliceblue;
 }
-.home-section{
+
+.home-section {
     text-align: center;
     background-image: url(/images/new-backround-img.jpg);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
     min-height: 400px;
-    
+
 
 }
-.home-paragraph{
+
+.home-paragraph {
     background-color: white;
     color: black;
 }
-button{
+
+button {
     width: 200px;
     height: 40px;
     background-color: greenyellow;
     border-radius: 15px;
 }
-.menu-section{
+
+.menu-section {
     background-color: coral;
     border: 1px solid black;
 }
-
